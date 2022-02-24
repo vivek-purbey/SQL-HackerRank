@@ -1,1 +1,1 @@
-select * from city where id=1661
+select * from city where id=1661;

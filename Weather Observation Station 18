@@ -1,0 +1,9 @@
+/*
+Enter your query here.
+
+ABS is a mathematical function that returns the absolute (positive) value of the specified numeric expression. ( ABS changes negative values to positive values. ABS has no effect on zero or positive values.)
+
+Manhattan Distance Formula = |x1-x2|+|y1-y2|
+*/
+
+select round(ABS(min(LAT_N) - max(LAT_N)) + ABS(min(LONG_W) - max(LONG_W)),4)FROM STATION;

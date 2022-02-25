@@ -1,1 +1,1 @@
-select round(avg(population)) from CITY where district="California";
+select round(avg(population)) from CITY;
